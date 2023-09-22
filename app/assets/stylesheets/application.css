@@ -13,6 +13,7 @@
  *= require_tree .
  *= require_self
  */
+<<<<<<< HEAD
 body {
     background-color: #fff;
     color: #333;
@@ -47,3 +48,39 @@ html.dark-mode .btn.btn-danger.custom-maroon-button {
 html.dark-mode a, html.dark-mode label {
     color: #bbb; /* Lighter color for links and labels in dark mode */
 }
+=======
+ body {
+    background-color: #fff;
+    color: #333;
+  }
+  .form-control {
+    background-color: #f8f9fa; /* Light gray for input fields */
+    color: #333;
+  }
+  .btn.btn-danger.custom-maroon-button {
+    background-color: maroon;
+    border-color: maroon;
+    color: #fff;
+  }
+  a, label {
+    color:blue; /* Blue for links and labels in light mode */
+  }
+
+  /* Dark Mode Styles */
+  html.dark-mode body {
+    background-color: #333;
+    color: #fff;
+  }
+  html.dark-mode .form-control {
+    background-color: #444;
+    color: #fff;
+  }
+  html.dark-mode .btn.btn-danger.custom-maroon-button {
+    background-color: maroon;
+    border-color: maroon;
+    color: #fff;
+  }
+  html.dark-mode a, html.dark-mode label {
+    color: #bbb; /* Lighter color for links and labels in dark mode */
+  }
+>>>>>>> 859a2f9 (moved CSS and JS to own files, so they can be reused on other pages)
