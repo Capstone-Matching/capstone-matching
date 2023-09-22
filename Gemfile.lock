@@ -250,7 +250,10 @@ GEM
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
     sqlite3 (1.6.4-aarch64-linux)
+<<<<<<< HEAD
     sqlite3 (1.6.4-arm64-darwin)
+=======
+>>>>>>> 7a8b01e (adding bootstrap and route)
     sqlite3 (1.6.4-x86_64-linux)
     stimulus-rails (1.2.2)
       railties (>= 6.0.0)
@@ -285,7 +288,10 @@ GEM
 
 PLATFORMS
   aarch64-linux
+<<<<<<< HEAD
   arm64-darwin-22
+=======
+>>>>>>> 7a8b01e (adding bootstrap and route)
   x86_64-linux
 
 DEPENDENCIES
