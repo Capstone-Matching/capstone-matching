@@ -174,8 +174,11 @@ GEM
       racc (~> 1.4)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     nokogiri (1.15.4-arm64-darwin)
       racc (~> 1.4)
+=======
+>>>>>>> 94009b8727de525cbdcbedf358e87a2e69730fcf
 =======
 >>>>>>> 94009b8727de525cbdcbedf358e87a2e69730fcf
 =======
@@ -258,7 +261,10 @@ GEM
     sqlite3 (1.6.4-aarch64-linux)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     sqlite3 (1.6.4-arm64-darwin)
+=======
+>>>>>>> 94009b8727de525cbdcbedf358e87a2e69730fcf
 =======
 >>>>>>> 94009b8727de525cbdcbedf358e87a2e69730fcf
 =======
@@ -299,7 +305,10 @@ PLATFORMS
   aarch64-linux
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   arm64-darwin-22
+=======
+>>>>>>> 94009b8727de525cbdcbedf358e87a2e69730fcf
 =======
 >>>>>>> 94009b8727de525cbdcbedf358e87a2e69730fcf
 =======
