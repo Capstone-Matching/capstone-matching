@@ -1,7 +1,10 @@
 class ProfregistrationController < ApplicationController
   def index
 <<<<<<< HEAD
+<<<<<<< HEAD
     # This is where you can display the registration form
+=======
+>>>>>>> 94009b8727de525cbdcbedf358e87a2e69730fcf
 =======
 >>>>>>> 94009b8727de525cbdcbedf358e87a2e69730fcf
   end
@@ -12,7 +15,11 @@ class ProfregistrationController < ApplicationController
     first_name = params[:first_name]
     last_name = params[:last_name]
 <<<<<<< HEAD
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> 94009b8727de525cbdcbedf358e87a2e69730fcf
 =======
 
 >>>>>>> 94009b8727de525cbdcbedf358e87a2e69730fcf
@@ -21,6 +28,10 @@ class ProfregistrationController < ApplicationController
         #error duplicate
         #flash[:error] = "Already registered, wait for admin response before trying again"
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        #redirect_to profregistration_path and return
+>>>>>>> 94009b8727de525cbdcbedf358e87a2e69730fcf
 =======
         #redirect_to profregistration_path and return
 >>>>>>> 94009b8727de525cbdcbedf358e87a2e69730fcf
@@ -29,6 +40,10 @@ class ProfregistrationController < ApplicationController
       flash[:success] = "Registration Successful! Please wait for the admin to approve your registration for access."
       redirect_to profregistration_path and return
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      #end
+>>>>>>> 94009b8727de525cbdcbedf358e87a2e69730fcf
 =======
       #end
 >>>>>>> 94009b8727de525cbdcbedf358e87a2e69730fcf

@@ -15,6 +15,7 @@
  */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 body {
     background-color: #fff;
     color: #333;
@@ -52,6 +53,8 @@ html.dark-mode a, html.dark-mode label {
 =======
 =======
 >>>>>>> 94009b8727de525cbdcbedf358e87a2e69730fcf
+=======
+>>>>>>> 94009b8727de525cbdcbedf358e87a2e69730fcf
  body {
     background-color: #fff;
     color: #333;
@@ -86,8 +89,12 @@ html.dark-mode a, html.dark-mode label {
   html.dark-mode a, html.dark-mode label {
     color: #bbb; /* Lighter color for links and labels in dark mode */
 <<<<<<< HEAD
+<<<<<<< HEAD
   }
 >>>>>>> 859a2f9 (moved CSS and JS to own files, so they can be reused on other pages)
+=======
+  }
+>>>>>>> 94009b8727de525cbdcbedf358e87a2e69730fcf
 =======
   }
 >>>>>>> 94009b8727de525cbdcbedf358e87a2e69730fcf
