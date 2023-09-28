@@ -16,11 +16,7 @@ class ProfregistrationController < ApplicationController
       else
         new_professor = Professor.new(email: email, first_name: first_name, last_name: last_name)
         if new_professor.save
-          # If the professor is successfully saved to the database, display a success message
           flash[:success] = "Registration Successful! Please wait for admin approval."
-        else
-          # If there's an error saving the professor, display an error message
-          flash[:error] = "An error occurred while registering. Please try again later."
         end
       end
     else
