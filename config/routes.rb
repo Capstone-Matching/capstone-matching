@@ -18,4 +18,5 @@ Rails.application.routes.draw do
   post "StudentForm", to: "studentform#create"
   # Defines the root path route ("/")
   # root "articles#index"
+  resources :sections, only: [:new, :create]
 end
